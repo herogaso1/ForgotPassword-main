@@ -15,9 +15,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
       manifest: {
-        name: "Tên Ứng Dụng Của Bạn",
-        short_name: "AppShortName",
-        description: "Mô tả ngắn về ứng dụng React PWA",
+        name: "Forgot Password",
+        short_name: "ForgotPassword",
+        description: "A simple forgot password feature implementation",
         theme_color: "#ffffff",
         icons: [
           {
@@ -26,7 +26,7 @@ export default defineConfig({
             type: "image/png",
           },
           {
-            src: "pwa-512x512.png",
+            src: "pwa-192x192.png",
             sizes: "512x512",
             type: "image/png",
           },
